@@ -15,7 +15,7 @@ double findSqrt(double x)
     double y = x;
     double z = (y + (x / y)) / 2;
 
-    // Como queremos a precisão de até 6 casas decimais, o valor absoluto
+    // Como queremos a precisão de até 5 casas decimais, o valor absoluto
     // não deve execeder 0.00001
     while (abs(y - z) >= 0.00001)
     {
